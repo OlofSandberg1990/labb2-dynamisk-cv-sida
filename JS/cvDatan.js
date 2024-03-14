@@ -1,4 +1,4 @@
-fetch("../cvData.json") //Använder fetch för att hämta data från min json-fil
+fetch("cvData.json") //Använder fetch för att hämta data från min json-fil
 .then(respone => respone.json()) //Omvandlat den hämtade datan till json-format.
 .then(data=> {
 
